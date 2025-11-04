@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
@@ -23,7 +23,7 @@ export default function Home() {
       cardStyle="glass-depth"
       primaryButtonStyle="flat"
       secondaryButtonStyle="glass"
-      showBlurBottom={true}
+      showBlurBottom="true"
     >
       <div id="nav" data-section="nav">
         <NavbarStyleApple
@@ -201,8 +201,7 @@ export default function Home() {
               company: "Local Business",
               rating: 5,
               imageSrc: "https://images.pexels.com/photos/3801426/pexels-photo-3801426.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-              imageAlt: "Elena Rodriguez customer portrait",
-              content: "The best coffee in Madrid! The atmosphere is perfect for business meetings and the quality is consistently excellent."
+              imageAlt: "Elena Rodriguez customer portrait"
             },
             {
               id: "2",
@@ -211,8 +210,7 @@ export default function Home() {
               company: "Design Studio",
               rating: 5,
               imageSrc: "https://images.pexels.com/photos/6864505/pexels-photo-6864505.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-              imageAlt: "Miguel Santos customer portrait",
-              content: "A true Spanish coffee experience. The traditional roasting methods really make a difference in taste."
+              imageAlt: "Miguel Santos customer portrait"
             },
             {
               id: "3",
@@ -221,8 +219,7 @@ export default function Home() {
               company: "Universidad Complutense",
               rating: 5,
               imageSrc: "https://images.pexels.com/photos/3801426/pexels-photo-3801426.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-              imageAlt: "Carmen López customer portrait",
-              content: "My favorite study spot! Great WiFi, amazing coffee, and the staff is always friendly and welcoming."
+              imageAlt: "Carmen López customer portrait"
             },
             {
               id: "4",
@@ -231,8 +228,7 @@ export default function Home() {
               company: "Tech Startup",
               rating: 5,
               imageSrc: "https://images.pexels.com/photos/3796810/pexels-photo-3796810.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-              imageAlt: "David Martinez customer portrait",
-              content: "The premium membership is worth every euro. Unlimited coffee and exclusive events make it a great value."
+              imageAlt: "David Martinez customer portrait"
             }
           ]}
         />
