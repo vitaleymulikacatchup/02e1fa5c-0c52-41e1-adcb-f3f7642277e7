@@ -11,6 +11,8 @@ import ContactCenter from '@/components/sections/contact/ContactCenter';
 import FooterBase from '@/components/sections/footer/FooterBase';
 import { Award, Coffee, Crown, Flame, Heart, MapPin, Menu, MessageSquare, Star } from "lucide-react";
 
+const assetMap = [];
+
 export default function Home() {
   return (
     <ThemeProvider
@@ -143,7 +145,7 @@ export default function Home() {
           plans={[
             {
               id: "casual",
-              badge: "Perfect Start",
+              badge: "Try Risk-Free",
               badgeIcon: Coffee,
               price: "€25/month",
               subtitle: "For occasional coffee lovers",
