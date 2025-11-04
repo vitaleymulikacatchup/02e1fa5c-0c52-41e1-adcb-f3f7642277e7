@@ -23,7 +23,7 @@ export default function Home() {
       cardStyle="glass-depth"
       primaryButtonStyle="flat"
       secondaryButtonStyle="glass"
-      showBlurBottom="true"
+      showBlurBottom={true}
     >
       <div id="nav" data-section="nav">
         <NavbarStyleApple
